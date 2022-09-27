@@ -1,0 +1,16 @@
+------------------------------virtual env------------------------------
+pip install virtualenv
+python -m virtualenv venv
+. ./venv/bin/activate
+
+"f1"
+
+select python interpreter(el que tenga venv)
+------------------------------Flask-MYSQLAchemy------------------------------
+pip install flask
+pip install Flask-SQLAlchemy
+------------------------------mysqlclient not working------------------------------ might not use it
+sudo apt-get install mysql-client
+sudo apt-get install libmysqlclient-dev
+sudo apt-get install libssl-dev
+pip install mysqlclient
